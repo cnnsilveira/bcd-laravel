@@ -1,0 +1,12 @@
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import './partials/mixin';
+@import './partials/globals';
+@import './partials/header';
+@import './partials/sidebar';
+@import './partials/charts';
+@import './partials/tables';
