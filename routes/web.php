@@ -16,3 +16,31 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.index');
 });
+
+Route::get('/definicoes', function () {
+    return view('pages.definitions');
+});
+
+Route::get('/favoritos', function () {
+    return view('pages.favorites');
+});
+
+Route::get('/perfil', function () {
+    return view('pages.profile');
+});
+
+Route::get('/imoveis', function () {
+    return view('pages.props');
+});
+
+Route::get('/imoveis/editar', function () {
+    return view('pages.edit');
+});
+
+Route::get('/imoveis/cadastro', function () {
+    return view('pages.new');
+});
+
+Route::get('/usuarios', function () {
+    return view('pages.users');
+});
